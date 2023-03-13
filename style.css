@@ -1,0 +1,148 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #131730;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.progress-container, .checklist-container {
+    background-color: #1B2042;
+    color: rgba(240, 248, 255, 0.7);
+
+    border-radius: 10px;
+}
+
+.progress-container {
+    margin-top: -200px;
+    padding: 20px 30px;
+}
+
+.checklist-container {
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: -100px;
+    padding: 5px 20px;
+}
+
+.empty-square {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    background-color: #49A2F6;
+    border-radius: 10px;
+    width: 100%;
+    height: 60%;
+    z-index: -10;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0;
+    font-size: small;
+}
+
+.fa-check {
+    color: #1B2042;
+    margin-right: 8px;
+    padding: 2px;
+    border: solid rgba(240, 248, 255, 0.7) 1px;
+    border-radius: 50px;
+}
+
+.checked {
+    color: rgba(240, 248, 255, 0.7);
+    background-color: #4962FF;
+    border: solid #4962FF 1px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress-bar-container {
+    position: relative;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.progress-bar-under-color  {
+    background-color: transparent;
+    height: 12px;
+    width: 100%;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    height: 10px;
+    width: 100%;
+}
+
+.step {
+    border-radius: 50px;
+    background-color: #4962FF;
+    height: 100%;
+    width: 100%;
+    margin-right: 5px;
+}
+
+.step:nth-child(2) {
+    background-color: #4A87FA;
+}
+
+.step:nth-child(3) {
+    background-color: #49A2F6;
+}
+
+.step:nth-child(4) {
+    background-color: #49BEF3;
+}
+
+.step:nth-child(5) {
+    background-color: #4BD9EF;
+}
+
+.step:nth-child(6) {
+    background-color: #4DD9D2;
+}
+
+.step:nth-child(7) {
+    background-color: #4dd9bb;
+}
+
+.step:nth-child(8) {
+    background-color: #4dd99f;
+}
+
+.step:nth-child(9) {
+    background-color: #6ed94d;
+}
+
+.empty {
+    background-color: #131730 !important;
+}
+
+
